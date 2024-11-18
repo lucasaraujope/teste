@@ -40,7 +40,7 @@
 
     margin: 0 auto;
 
-    animation: pulsate 1.5s infinite; /* Nome da animação, duração e repetição infinita */
+    animation: pulsate 2s infinite; /* Nome da animação, duração e repetição infinita */
     transition: background-color 0.3s;
     a {
       text-decoration: none;
@@ -73,8 +73,6 @@
 
       & span {
         color: var(--bg-texts);
-        animation: pulsate 1.5s infinite; /* Nome da animação, duração e repetição infinita */
-        transition: background-color 0.3s;
       }
     }
   }
@@ -88,7 +86,7 @@
   50% {
     transform: scale(1.1); /* Aumenta o tamanho do botão */
     opacity: 0.8; /* Diminui um pouco a opacidade */
-    font-size: 1.5rem;
+
   }
   100% {
     transform: scale(1);
