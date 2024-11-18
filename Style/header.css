@@ -1,0 +1,20 @@
+header{
+    text-align: center;
+    margin: 1.5rem auto 1rem;
+    width: 100%;
+    & h1 {
+        margin: 0 auto;
+        width: 21rem;
+        letter-spacing: 0.1rem;
+        font-size: var(--fs-text);
+        font-weight: var(--fw-reg);
+        font-family: var(--ff-anton);
+
+        & span{
+            background-color: var(--bg-texts);
+            padding-inline: 0.8rem;
+            border-radius: 2rem;
+            color: #160727;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.progress-plan {
+  margin-top: 2rem;
+  text-align: center;
+
+  & button {
+    cursor: pointer;
+
+    width: 15rem;
+
+    font-size: var(--fs-md);
+    font-family: var(--ff-anton);
+
+    border-radius: 1.75rem;
+
+    background-color: var(--bg-texts);
+
+    margin: 0 auto;
+
+    a {
+      text-decoration: none;
+      color: #160727;
+    }
+  }
+
+  & button:hover {
+    background: linear-gradient(#160727, #160727) padding-box,
+      linear-gradient(140deg, #03da7d, #8e7de4 85% 100%) border-box;
+
+    border: 4px solid transparent;
+
+    & a {
+      color: #8e7de4;
+    }
+  }
+
+  & p {
+    font-size: 15px;
+    width: 16.625rem;
+    margin: 2rem auto;
+
+    & span {
+        color: #8e7de4;
+    }
+  }
+}

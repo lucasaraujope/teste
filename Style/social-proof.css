@@ -1,0 +1,38 @@
+.social-proof {
+  display: grid;
+  align-content: center;
+  text-align: center;
+  margin: 1.25rem auto;
+  width: 100%;
+
+  & .second-container {
+    & .main-datas {
+      gap: 1rem;
+      & p {
+        margin: 0 auto;
+        width: 21rem;
+        font-size: var(--fs-md);
+      }
+
+      & span {
+        color: var(--bg-texts);
+
+        font-family: var(--ff-Antonio);
+        font-size: 12rem;
+
+        letter-spacing: -1.5rem;
+      }
+    }
+    & h2 {
+      width: 25rem;
+      margin: 0 auto;
+      font-size: var(--fs-md);
+      font-family: var(--ff-anton);
+      letter-spacing: 0.15rem;
+
+      & span {
+        color: var(--bg-texts);
+      }
+    }
+  }
+}

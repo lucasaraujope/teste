@@ -1,0 +1,29 @@
+.about {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+
+  & img {
+    display: inline-block;
+    width: 21.5rem;
+  }
+
+  & .about-infos {
+    
+    & h3{
+        margin: 0 auto;
+        width: 10.5625rem;
+        font-size: 1.5625rem;
+        font-weight: var(--fw-reg);
+        margin-bottom: 0.5rem;
+    }
+
+    & .about-texts {
+        & p {
+            margin: 0 auto;
+            width: 95%;
+            margin-bottom: 1rem;
+        }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-color: #42215a;
+  --bg-texts: #03da7d;
+  --especial-texts: #8e7de4;
+
+  /*FONTS*/
+  --ff-fredoka: "Fredoka", sans-serif;
+  --ff-anton: "Anton", sans-serif;
+  --ff-Antonio: "Antonio", sans-serif;
+
+  --fs-title: 3.5rem;
+  --fs-subtitle: 3rem;
+  --fs-big-texts: 2.5rem;
+  --fs: 2.25rem;
+  --fs-xlg: 2rem;
+  --fs-lg: 1.5rem;
+  --fs-md: 1.25rem;
+  --fs-text: 1rem;
+
+  --fw-ebold: 800;
+  --fw-bold: 700;
+  --fw-sbold: 600;
+  --fw-reg: 400;
+}
+
+html {
+  font-size: var(--fs-text);
+  font-weight: var(--fw-reg);
+  font-family: var(--ff-fredoka);
+  color: #f5f5f5;
+
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #160727;
+  overflow-x: hidden;
+}
+
+.container {
+  min-width: 20rem;
+  margin: 0 auto;
+}
+
+@media (width >= 80em) {
+  .container {
+    min-width: 100%;
+    margin: 0 auto;
+  }
+}
