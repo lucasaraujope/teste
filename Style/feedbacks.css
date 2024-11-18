@@ -23,7 +23,7 @@
       margin: 0;
       overflow: visible;
       width: 70%;
-      height: 23rem;
+      height: 28rem;
 
       & .swiper-wrapper {
         & .swiper-slide {
@@ -40,7 +40,7 @@
 
           & > div {
             & img {
-              width: 5.5rem;
+              width: 5rem;
               height: 5rem;
               background-color: black;
               border-radius: 100%;

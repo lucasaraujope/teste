@@ -1,12 +1,14 @@
 .faq-section {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 2rem auto;
   padding: 1rem;
   text-align: center;
 
   & h2{
     margin-bottom: 2rem;
-
+    font-family: var(--ff-fredoka);
+    font-weight: var(--fw-reg);
+    font-size: var(--fs-xlg);
   }
 }
 
