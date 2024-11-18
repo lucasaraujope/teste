@@ -1,25 +1,37 @@
 footer {
-    width: 12.0625rem;
-    margin: 0 auto;
-    & div {
-        display: flex;
-        align-items: center;
-        gap: 0.8rem;
+  width: 21rem;
+  margin: 0 auto;
+  text-align: center;
+  & div {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
 
-        margin-bottom: 2rem;
+    margin-bottom: 2rem;
 
-        & span {
-            width: 6.25rem;
-            font-size: 0.625rem;
+    & span {
+      font-size: var(--fs-md);
+    }
+
+    & > a {
+      & > img {
+        width: 8rem;
+      }
+    }
+  }
+
+  & > img {
+    margin-bottom: 2rem;
+  }
+
+  & .links {
+    display: flex;
+    justify-content: center;
+
+    & > a{
+        & > img {
+            width: 3rem;
         }
     }
-
-    & > img{
-        margin-bottom: 2rem;
-    }
-
-    & .links{
-        display: flex;
-        justify-content: center;
-    }
+  }
 }
