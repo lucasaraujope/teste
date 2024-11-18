@@ -14,7 +14,7 @@ footer {
         }
     }
 
-    & img{
+    & > img{
         margin-bottom: 2rem;
     }
 
