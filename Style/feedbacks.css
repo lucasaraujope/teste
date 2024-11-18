@@ -23,7 +23,7 @@
       margin: 0;
       overflow: visible;
       width: 70%;
-      height: 18.75rem;
+      height: 23rem;
 
       & .swiper-wrapper {
         & .swiper-slide {
@@ -38,12 +38,12 @@
 
           border: 4px solid transparent;
 
-          & .card {
-            & .image {
-              width: 6rem;
-              height: 6rem;
+          & > div {
+            & img {
+              width: 5.5rem;
+              height: 5rem;
               background-color: black;
-              border-radius: 50%;
+              border-radius: 100%;
             }
           }
 
@@ -89,6 +89,9 @@
     background-color: var(--bg-texts);
 
     margin: 3rem auto;
+
+    animation: pulsate 1.5s infinite; /* Nome da animação, duração e repetição infinita */
+    transition: background-color 0.3s;
 
     a {
       text-decoration: none;

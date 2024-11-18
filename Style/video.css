@@ -1,11 +1,11 @@
 .video {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   & .layer {
     position: relative;
-    width: 20rem;
-    height: 14rem;
+    width: 23rem;
+    height: 15rem;
     margin: 0 auto;
 
     background: linear-gradient(#160727, #160727) padding-box,
@@ -16,7 +16,12 @@
 
     cursor: pointer;
 
-    padding: 0.3rem;
+    & .box-video {
+      position: absolute;
+      & iframe {
+        border-radius: 0.7rem;
+      }
+    }
   }
 
   & button {
@@ -28,11 +33,14 @@
     font-family: var(--ff-anton);
 
     border-radius: 1.75rem;
+    border: none;
 
     background-color: var(--bg-texts);
 
     margin: 0 auto;
 
+    animation: pulsate 1.5s infinite; /* Nome da animação, duração e repetição infinita */
+    transition: background-color 0.3s;
     a {
       text-decoration: none;
       color: #160727;
@@ -50,8 +58,25 @@
     }
   }
 
-  & span{
+  & span {
     font-size: var(--fs-md);
     margin: 0 auto;
+  }
+
+  
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1); /* Aumenta o tamanho do botão */
+    opacity: 0.8; /* Diminui um pouco a opacidade */
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
   }
 }
