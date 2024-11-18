@@ -11,7 +11,7 @@
 }
 
 .faq-item {
-  border-bottom: 1px solid #ccc;
+  
   margin-bottom: 1rem;
   background: linear-gradient(#ffffff, #ffffff) padding-box,
     linear-gradient(140deg, #03da7d, #8e7de4 85% 100%) border-box;
@@ -25,6 +25,8 @@
 .faq-question {
   display: flex;
   align-items: center;
+
+  background-color:  transparent;
 
   gap: 0.5rem;
 
