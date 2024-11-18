@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  text-align: center;
   & .layer {
     position: relative;
     width: 23rem;
@@ -62,8 +63,21 @@
     font-size: var(--fs-md);
     margin: 0 auto;
   }
-
   
+  & h3 {
+    font-size: 0.9375rem;
+    font-weight: var(--fw-reg);
+
+    & a {
+      text-decoration: none;
+
+      & span {
+        color: var(--bg-texts);
+        animation: pulsate 1.5s infinite; /* Nome da animação, duração e repetição infinita */
+        transition: background-color 0.3s;
+      }
+    }
+  }
 }
 
 @keyframes pulsate {
@@ -74,6 +88,7 @@
   50% {
     transform: scale(1.1); /* Aumenta o tamanho do botão */
     opacity: 0.8; /* Diminui um pouco a opacidade */
+    font-size: 1.5rem;
   }
   100% {
     transform: scale(1);

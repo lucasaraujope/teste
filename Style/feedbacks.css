@@ -23,7 +23,7 @@
       margin: 0;
       overflow: visible;
       width: 70%;
-      height: 28rem;
+      height: 29rem;
 
       & .swiper-wrapper {
         & .swiper-slide {
@@ -85,6 +85,7 @@
     font-family: var(--ff-anton);
 
     border-radius: 1.75rem;
+    border: none;
 
     background-color: var(--bg-texts);
 

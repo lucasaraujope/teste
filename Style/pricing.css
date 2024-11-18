@@ -1,12 +1,5 @@
 .pricing {
   text-align: center;
   margin: 1rem 0 10rem 0;
-  & h3 {
-    font-size: 0.9375rem;
-    font-weight: var(--fw-reg);
-
-    & span {
-      color: var(--bg-texts);
-    }
-  }
+  
 }

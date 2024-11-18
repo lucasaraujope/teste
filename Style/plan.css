@@ -15,6 +15,7 @@
     font-family: var(--ff-anton);
 
     border-radius: 1.75rem;
+    border: none;
 
     background-color: var(--bg-texts);
 
