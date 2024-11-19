@@ -63,7 +63,7 @@
     font-size: var(--fs-md);
     margin: 0 auto;
   }
-  
+
   & h3 {
     font-size: 0.9375rem;
     font-weight: var(--fw-reg);
@@ -78,6 +78,46 @@
   }
 }
 
+@media (width >= 48rem) {
+  .video {
+    & .layer {
+      width: 43.17rem;
+      height: 25rem;
+      & .box-video {
+        & iframe {
+          width: 42.7rem;
+          height: 24.5rem;
+        }
+      }
+    }
+
+    & button {
+      width: 25rem;
+      padding: 0.5rem;
+
+      font-size: var(--fs);
+    }
+
+    & span {
+      font-size: var(--fs-xlg);
+      margin: 0 auto;
+    }
+  
+    & h3 {
+      font-size: var(--fs-lg);
+      font-weight: var(--fw-reg);
+  
+      & a {
+        text-decoration: none;
+  
+        & span {
+          color: var(--bg-texts);
+        }
+      }
+    }
+  }
+}
+
 @keyframes pulsate {
   0% {
     transform: scale(1);
@@ -86,7 +126,6 @@
   50% {
     transform: scale(1.1); /* Aumenta o tamanho do botão */
     opacity: 0.8; /* Diminui um pouco a opacidade */
-
   }
   100% {
     transform: scale(1);

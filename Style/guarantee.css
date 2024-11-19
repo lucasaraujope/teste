@@ -1,3 +1,25 @@
 .guarantee {
-    text-align: center;
+  text-align: center;
+
+  & .garantia-mobile {
+    margin: 0 auto;
+    display: block;
+  }
+
+  & .garantia-mid {
+    display: none;
+  }
+}
+
+@media (width >= 48rem) {
+  .guarantee {
+    & .garantia-mobile {
+      display: none;
+    }
+
+    & .garantia-mid {
+      margin: 0 auto;
+      display: block;
+    }
+  }
 }

@@ -111,3 +111,49 @@
     }
   }
 }
+
+@media (width >= 48rem) {
+  .feedbacks {
+    & h3 {
+      width: 25rem;
+      font-size: var(--fs-xlg);
+      margin: 1rem auto;
+      font-weight: var(--fw-reg);
+
+      & span {
+        color: var(--bg-texts);
+      }
+    }
+
+    & .texts {
+      & .swiper {
+        margin: 0;
+        overflow: visible;
+        width: 45%;
+        height: 31rem;
+
+        & .swiper-wrapper {
+          & .swiper-slide {
+            & .name {
+              font-size: var(--fs-md);
+            }
+
+            & .person-feedback {
+              position: relative;
+              & p {
+                font-size: var(--fs-md);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    & button {
+      width: 25rem;
+      padding: 0.5rem;
+
+      font-size: var(--fs);
+    }
+  }
+}

@@ -1,6 +1,6 @@
 .about {
   text-align: center;
-  width: 80%;
+  width: 28rem;
   margin: 0 auto;
 
   & img {
@@ -9,21 +9,46 @@
   }
 
   & .about-infos {
-    
-    & h3{
-        margin: 0 auto;
-        width: 10.5625rem;
-        font-size: 1.5625rem;
-        font-weight: var(--fw-reg);
-        margin-bottom: 0.5rem;
+    & h3 {
+      margin: 0 auto;
+      width: 10.5625rem;
+      font-size: 1.5625rem;
+      font-weight: var(--fw-reg);
+      margin-bottom: 0.5rem;
     }
 
     & .about-texts {
-        & p {
-            margin: 0 auto;
-            width: 95%;
-            margin-bottom: 1rem;
-        }
+      & p {
+        margin: 0 auto;
+        width: 95%;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+@media (width >= 48rem) {
+  .about {
+    width: 50rem;
+    justify-content: space-between;
+
+   text-align: center;
+
+    & img {
+      display: inline-block;
+      width: 29rem;
+    }
+
+    & .about-infos {
+      margin: 0 auto;
+      width: 40rem;
+      font-size: var(--fs-lg);
+
+      & h3 {
+        font-size: var(--fs);
+        width: 25rem;
+        margin-bottom: 2rem;
+      }
     }
   }
 }

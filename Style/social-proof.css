@@ -36,3 +36,40 @@
     }
   }
 }
+
+
+@media (width >= 48rem){
+  .social-proof {
+  
+    & .second-container {
+      & .main-datas {
+        gap: 1rem;
+        & p {
+          margin: 0 auto;
+          width: 35rem;
+          font-size: var(--fs-lg);
+        }
+  
+        & span {
+          color: var(--bg-texts);
+  
+          font-family: var(--ff-anton);
+          font-size: 13rem;
+  
+          letter-spacing: -1rem;
+        }
+      }
+      & h2 {
+        width: 30rem;
+        margin: 0 auto;
+        font-size: var(--fs-lg);
+        font-family: var(--ff-anton);
+        letter-spacing: 0.15rem;
+  
+        & span {
+          color: var(--bg-texts);
+        }
+      }
+    }
+  }
+}

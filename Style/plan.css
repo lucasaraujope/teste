@@ -2,8 +2,14 @@
   margin-top: 2rem;
   text-align: center;
 
-  & img {
-    background: transparent;
+  & .plan-mobile {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  & .plan-mid {
+    display: none;
   }
 
   & button {
@@ -47,10 +53,34 @@
     margin: 2rem auto;
 
     & span {
-        color: #8e7de4;
+      color: #8e7de4;
     }
   }
 }
 
+@media (width >= 48rem) {
+  .progress-plan {
+    & .plan-mobile {
+      display: none;
+    }
 
+    & .plan-mid {
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 1rem;
+    }
 
+    & button {
+      width: 25rem;
+      padding: 0.5rem;
+
+      font-size: var(--fs);
+    }
+
+    & p {
+      font-size: var(--fs-xlg);
+      width: 35rem;
+      margin: 2rem auto;
+    }
+  }
+}
