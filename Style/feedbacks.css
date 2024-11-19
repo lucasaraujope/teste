@@ -136,6 +136,15 @@
           & .swiper-slide {
             & .name {
               font-size: var(--fs-md);
+
+              & > div {
+                & img {
+                  width: 7rem;
+                  height: 7rem;
+                  background-color: black;
+                  border-radius: 100%;
+                }
+              }
             }
 
             & .person-feedback {
@@ -181,7 +190,8 @@
         & .swiper-wrapper {
           & .swiper-slide {
             & .name {
-              font-size: var(--fs);
+              font-size: var(--fs-lg);
+
             }
 
             & .person-feedback {
