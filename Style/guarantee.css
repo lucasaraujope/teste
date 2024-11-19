@@ -9,6 +9,10 @@
   & .garantia-mid {
     display: none;
   }
+
+  & .garantia-desktop {
+    display: none;
+  }
 }
 
 @media (width >= 48rem) {
@@ -18,6 +22,27 @@
     }
 
     & .garantia-mid {
+      margin: 0 auto;
+      display: block;
+    }
+
+    & .garantia-desktop {
+      display: none;
+    }
+  }
+}
+
+@media (width >= 90rem) {
+  .guarantee {
+    & .garantia-mobile {
+      display: none;
+    }
+
+    & .garantia-mid {
+      display: none;
+    }
+
+    & .garantia-desktop {
       margin: 0 auto;
       display: block;
     }

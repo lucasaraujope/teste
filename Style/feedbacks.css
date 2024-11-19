@@ -157,3 +157,50 @@
     }
   }
 }
+
+@media (width >= 90rem) {
+  .feedbacks {
+    & h3 {
+      width: 55rem;
+      font-size: var(--fs-big-texts);
+      margin: 1rem auto;
+      font-weight: var(--fw-reg);
+
+      & span {
+        color: var(--bg-texts);
+      }
+    }
+
+    & .texts {
+      & .swiper {
+        margin: 0;
+        overflow: visible;
+        width: 30%;
+        height: 31rem;
+
+        & .swiper-wrapper {
+          & .swiper-slide {
+            & .name {
+              font-size: var(--fs);
+            }
+
+            & .person-feedback {
+              position: relative;
+              & p {
+                font-size: var(--fs-md);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    & button {
+      width: 25rem;
+      padding: 0.5rem;
+
+      font-size: var(--fs);
+    }
+  }
+}
+

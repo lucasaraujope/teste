@@ -54,10 +54,12 @@ header {
         background-color: var(--bg-texts);
 
         & a {
-          padding: 0.5rem 1rem;
+          padding: 0 1.5rem;
 
           color: #160727;
           font-weight: 600;
+
+          font-size: var(--fs-lg);
 
           text-decoration: none;
         }
@@ -71,6 +73,61 @@ header {
       font-size: var(--fs-xlg);
       font-weight: var(--fw-reg);
       font-family: var(--ff-anton);
+
+      & span {
+        background-color: var(--bg-texts);
+        padding-inline: 0.8rem;
+        border-radius: 2rem;
+        color: #160727;
+      }
+    }
+  }
+}
+
+@media (width >= 90rem) {
+  header {
+    & > div {
+      display: flex;
+      justify-content: space-between;
+
+      & img {
+        width: 20rem;
+        margin: 0;
+      }
+
+      & button {
+        display: flex;
+        align-self: center;
+        margin-right: 3rem;
+
+        border-radius: 2rem;
+        border: none;
+
+        background-color: var(--bg-texts);
+
+        & a {
+          padding: 0 1.5rem;
+
+          color: #160727;
+          font-weight: 600;
+
+          text-decoration: none;
+
+          font-size: var(--fs-xlg);
+
+          border-radius: 3rem;
+        }
+      }
+    }
+
+    & h1 {
+      margin: 2rem auto;
+      width: 70rem;
+      letter-spacing: 0.1rem;
+      font-size: var(--fs-title);
+      font-weight: var(--fw-reg);
+      font-family: var(--ff-anton);
+      
 
       & span {
         background-color: var(--bg-texts);

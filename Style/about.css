@@ -5,7 +5,7 @@
 
   & img {
     display: inline-block;
-    width: 21.5rem;
+    width: 19rem;
   }
 
   & .about-infos {
@@ -20,7 +20,7 @@
     & .about-texts {
       & p {
         margin: 0 auto;
-        width: 95%;
+        width: 20rem;
         margin-bottom: 1rem;
       }
     }
@@ -32,7 +32,7 @@
     width: 50rem;
     justify-content: space-between;
 
-   text-align: center;
+    text-align: center;
 
     & img {
       display: inline-block;
@@ -48,6 +48,51 @@
         font-size: var(--fs);
         width: 25rem;
         margin-bottom: 2rem;
+      }
+
+      & .about-texts {
+        & p {
+          margin: 0 auto;
+          width: 40rem;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (width >= 90rem) {
+  .about {
+    display: flex;
+    width: 80rem;
+    justify-content: space-between;
+
+    margin-bottom: 5rem;
+
+    text-align: center;
+
+    & img {
+      display: inline-block;
+      width: 38rem;
+    }
+
+    & .about-infos {
+      margin: 0 auto;
+      width: 40rem;
+      font-size: var(--fs-lg);
+
+      & h3 {
+        font-size: var(--fs);
+        width: 25rem;
+        margin-bottom: 2rem;
+      }
+
+      & .about-texts {
+        & p {
+          margin: 0 auto;
+          width: 40rem;
+          margin-bottom: 1rem;
+        }
       }
     }
   }

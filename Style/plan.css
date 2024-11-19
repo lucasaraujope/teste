@@ -12,6 +12,10 @@
     display: none;
   }
 
+  & .plan-desktop{
+    display: none;
+  }
+
   & button {
     cursor: pointer;
 
@@ -70,6 +74,10 @@
       margin-bottom: 1rem;
     }
 
+    & .plan-desktop{
+      display: none;
+    }
+
     & button {
       width: 25rem;
       padding: 0.5rem;
@@ -80,6 +88,37 @@
     & p {
       font-size: var(--fs-xlg);
       width: 35rem;
+      margin: 2rem auto;
+    }
+  }
+}
+
+@media (width >= 90rem) {
+  .progress-plan {
+    & .plan-mobile {
+      display: none;
+    }
+
+    & .plan-mid {
+      display: none;
+    }
+
+    & .plan-desktop{
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 2rem;
+    }
+
+    & button {
+      width: 25rem;
+      padding: 0.5rem;
+
+      font-size: var(--fs);
+    }
+
+    & p {
+      font-size: var(--fs);
+      width: 42.25rem;
       margin: 2rem auto;
     }
   }
