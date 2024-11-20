@@ -33,10 +33,8 @@ header {
 
 @media (width >= 48rem) {
   header {
+    text-align: center;
     & > div {
-      display: flex;
-      justify-content: space-between;
-
       margin-bottom: 2rem;
 
       & img {
@@ -86,12 +84,10 @@ header {
 
 @media (width >= 90rem) {
   header {
+    text-align: center;
     & > div {
-      display: flex;
-      justify-content: space-between;
-
       & img {
-        width: 20rem;
+        width: 28rem;
         margin: 0;
       }
 
@@ -127,7 +123,6 @@ header {
       font-size: var(--fs-title);
       font-weight: var(--fw-reg);
       font-family: var(--ff-anton);
-      
 
       & span {
         background-color: var(--bg-texts);

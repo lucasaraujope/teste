@@ -61,7 +61,6 @@
   & .faq {
     & .faq-section {
       width: 50rem;
-      padding: 7rem;
 
       & .faq-item {
         padding: 1.5rem;
@@ -87,7 +86,6 @@
   & .faq {
     & .faq-section {
       width: 75rem;
-      padding: 8rem;
 
       & .faq-item {
         padding: 1.5rem;
