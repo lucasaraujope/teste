@@ -60,7 +60,7 @@
 @media (width >= 48rem) {
   & .faq {
     & .faq-section {
-      width: 60rem;
+      width: 50rem;
       padding: 7rem;
 
       & .faq-item {
